@@ -31,10 +31,9 @@ go run .
 ```
  
 Results are written to `output.json`. Each line is a JSON object:
- 
 ```json
-{"URL":"https://google.com","Status":200,"Latency":42,"Healthy":true}
-{"URL":"https://httpstat.us/500","Status":500,"Latency":120,"Healthy":false}
-{"URL":"https://darby.thisdomaindoesnotexist.xyz","Status":-1,"Latency":0,"Healthy":false}
+{"URL":"https://google.com","STATUS":200,"LATENCY":42,"HEALTHY":true}
+{"URL":"https://httpstat.us/500","STATUS":500,"LATENCY":120,"HEALTHY":false}
+{"URL":"https://darby.thisdomaindoesnotexist.xyz","STATUS":-1,"LATENCY":0,"HEALTHY":false}
 ```
  
