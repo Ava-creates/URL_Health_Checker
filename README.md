@@ -20,7 +20,6 @@ URL_checker/
 ├── checker.go        # Makes HTTP GET request, returns a check result struct
 ├── worker.go         # Worker pool, graceful shutdown
 ├── writer.go         # Single writer goroutine, writes results to output.json
-├── bench.go          # Benchmarks across worker counts
 ├── urls.txt          # Input — one URL per line
 └── README.md
 ```
